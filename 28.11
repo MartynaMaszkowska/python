@@ -1,0 +1,103 @@
+def prostopadloscian ():
+  a = float(input('podaj bok a')
+  b = float(input('podaj bok b')
+  c = float(input('podaj wysokoś c')
+  return {'bok a' : a, 'bok b': b, 'wykokosc c' : c}
+
+def oblicz ()
+  wynik = a * b * c
+
+  dokończyc!
+
+
+  def moj_range(*args):
+    count=len(args)
+    result=[]
+    if count==1:
+      i=0
+      while i<args[0]:
+        result.append(i)
+        i+=1
+    if count==2:
+      i=args[0]
+      while i<args[1]:
+        result.append(i)
+        i+=1
+    if count==3:
+      i=args[0]
+      while i<args[1]:
+        result.append(i)
+        i+=args[2]
+    return result
+
+  print(moj_range(1,100,5))
+
+
+  txt= """ The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those! """
+
+#print(txt[35:44])
+#print(txt[64:])
+#print(txt[:34])
+#print(txt[::-1])
+#print(txt[:34:4])
+#print(txt[-65:-28])
+
+#split = txt.split("\n")
+#for i in split:
+#  fragment = i[i.find(','):i.find('.')]
+# if fragment != '':
+#   print(fragment)
+
+#split = txt.split()
+#a = split[split.index('is')+1]
+#print(a)
+
+#split = txt.split()
+#a = split[split.index('is')+1]
+#print(a)
+
+split = txt.split()
+for i in range(len(split)):
+  if split[i] == 'is':
+    print(split[i-1])
+
+
+    lista = list(range(0,100))
+    print(lista[35:44])
+    print(lista[::-1])
+
+
+    from random import randint
+  losowa_liczba = randint (1, 100)
+
+  for numer_szansy in range(5):
+    liczba_uzytkowanika = int(input('Podaj liczbę:'))
+    if losowa_liczba > liczba_uzytkowanika:
+      print('Moja liczba jest większa')
+    elif losowa_liczba < liczba_uzytkowanika:
+      print('Moja liczba jest mniejsza')
+    elif losowa_liczba == liczba_uzytkowanika:
+      print('Zgadłeś! %d to moja liczba' % (losowa_liczba))
+      break
+
+    if 
